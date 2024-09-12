@@ -10,9 +10,29 @@
 // #define USE_SET // Использовать класс TSet,
                 // закоментировать, чтобы использовать битовое поле
 
-#ifndef USE_SET // Использовать класс TBitField
+//#ifndef USE_SET // Использовать класс TBitField
 
 #include "tbitfield.h"
+
+int main()
+{
+    int n, m, k, count;
+
+    setlocale(LC_ALL, "Russian");
+    cout << "Тестирование программ поддержки битового поля" << endl;
+    cout << "             Решето Эратосфена" << endl;
+    cout << "Введите верхнюю границу целых значений - ";
+    cin >> n;
+
+    TBitField bf(10);
+    bf.SetBit(3);       //
+}
+
+
+
+
+/*
+
 
 int main()
 {
@@ -50,6 +70,9 @@ int main()
   cout << endl;
   cout << "В первых " << n << " числах " << count << " простых" << endl;
 }
+
+
+
 #else
 
 #include "tset.h"
@@ -92,3 +115,11 @@ int main()
 }
 
 #endif
+
+
+
+
+
+
+
+*/
