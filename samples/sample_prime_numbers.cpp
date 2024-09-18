@@ -34,8 +34,6 @@ int main()
 
 
 /*
-
-
 int main()
 {
   int n, m, k, count;
@@ -119,9 +117,7 @@ int main()
 #endif
 
 
-
-
-
-
-
 */
+
+
+
