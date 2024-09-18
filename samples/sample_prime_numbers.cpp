@@ -25,7 +25,7 @@ int main()
     cin >> n;
 
     TBitField bf(10);
-    bf.SetBit(3);       //
+    bf.SetBit(3);      
 }
 
 // hello worls dksajdkjsdjalkdas

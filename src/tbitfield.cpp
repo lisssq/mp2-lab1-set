@@ -164,3 +164,4 @@ ostream &operator<<(ostream &ostr, const TBitField &bf) // вывод
     }
     return ostr;
 }
+
