@@ -223,7 +223,14 @@ TEST(TBitField, and_operator_applied_to_bitfields_of_non_equal_size)
   EXPECT_EQ(expBf, bf1 & bf2);
 }
 
-TEST(TBitField, can_invert_bitfield)
+
+
+///////////////
+
+
+
+
+TEST(TBitField, can_invert_bitfield)            //вроде работает 
 {
   const int size = 2;
   TBitField bf(size), negBf(size), expNegBf(size);

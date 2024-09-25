@@ -14,6 +14,21 @@
 
 #include "tbitfield.h"
 
+
+int main()
+{
+    TBitField bf(50);
+    bf.SetBit(35);
+    cout << bf;
+}
+
+
+
+
+
+
+
+/*
 int main()
 {
     int n, m, k, count;
@@ -33,7 +48,7 @@ int main()
 // jdshfjds
 
 
-/*
+
 int main()
 {
   int n, m, k, count;
